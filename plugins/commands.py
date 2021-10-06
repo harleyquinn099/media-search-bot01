@@ -27,7 +27,7 @@ async def start(bot, cmd):
                 ident, file_id = cmd.text.split("_-_-_-_")
                 await bot.send_message(
                     chat_id=cmd.from_user.id,
-                    text="**Please Join My Updates Channel to use this Bot!**",
+                    text="**YOU MUST JOIN IN OUR CHANNEL!**",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
